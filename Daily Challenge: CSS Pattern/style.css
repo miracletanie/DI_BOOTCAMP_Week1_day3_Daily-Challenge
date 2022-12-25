@@ -1,0 +1,49 @@
+.container{
+    display:flex;
+    justify-content:space-between;
+     height:300px;
+    border:solid gray 1px;
+    
+
+}
+.gauche-col{
+    display:flex;
+    flex-direction:column;
+    row-gap: 1.5em;
+
+}
+
+.droit-col{
+    
+    display:flex;
+    flex-direction: column;
+    row-gap: 1.5em;
+}
+.milieu{
+    display:flex;
+   align-items:center;  
+   column-gap:6em;
+}
+
+.gauche{
+    
+    background-color:yellow;
+    width:60px;
+    height:60px;
+   border:solid black 2px;
+}
+.droite{
+    background-color:yellow;
+   
+    width:60px;
+    height:60px;
+    border:solid black 2px;
+}
+.centre{
+    
+    width:60px;
+    height:60px;
+    background-color:yellow;
+    
+    border:solid black 2px;
+}
